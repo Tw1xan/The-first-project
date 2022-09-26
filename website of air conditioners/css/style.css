@@ -1,0 +1,227 @@
+/* header start */
+
+.top__color {
+  background-color: rgb(3, 3, 148);
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.nav-link {
+  margin-right: 40px;
+}
+.container {
+  padding: 0 20px 0 20px;
+}
+.contact__one {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 24px;
+  padding: 0 15px 20px 15px;
+}
+.text__item {
+  padding: 95px 15px 10px 15px;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.phone__number:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.pochta__mail:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.WhatsUp__text:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.WhatsUp__text:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(3, 3, 148);
+  font-weight: 500;
+}
+
+/* header end */
+
+.WhatsUp__text a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+
+ul {
+  list-style: square;
+}
+ul.yta {
+  list-style: disc;
+  font-size: 18px;
+}
+ul.yta2 {
+  list-style: disc;
+  font-size: 20px;
+}
+h2 {
+  padding-top: 15px;
+  text-align: center;
+  color: rgb(3, 3, 148);
+}
+h3 {
+  text-align: center;
+}
+p.text__p {
+  padding-top: 20px;
+}
+h5 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 21px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+section a {
+  font-style: italic;
+}
+
+p {
+  font-size: 20px;
+}
+#split__system,
+.topgun {
+  margin-top: -100px;
+  padding-top: 100px;
+}
+.TWO-li {
+  font-size: 22px;
+
+  font-weight: 650;
+}
+.split__img {
+  float: left;
+  padding-right: 10px;
+}
+.split__img2 {
+  float: right;
+  padding-left: 10px;
+}
+
+.mono__carousel {
+  width: 40%;
+  float: right;
+  max-width: 50%;
+  max-width: 50%;
+}
+.text__line__height {
+  line-height: 1.6em;
+  padding: 20px 0 0 0;
+}
+.slide__ {
+  float: left;
+  width: 40%;
+  max-width: 50%;
+  max-width: 50%;
+}
+ol {
+  font-size: 22px;
+  padding-top: 20px;
+}
+
+.blue {
+  color: rgb(3, 3, 148);
+}
+/* FAQ start */
+
+.brand__container img {
+  padding-right: 30px;
+}
+
+.brand__container img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.FAQ__top {
+  padding-top: 120px;
+}
+
+.FAQ_size {
+  font-size: 20px;
+  font-weight: 400;
+}
+.FAQ_size p {
+  font-size: 24px;
+}
+
+/* FAQ end */
+
+/* Info start */
+
+/* Info end */
+
+/* footer start */
+
+.footer {
+  padding-top: 25px;
+  line-height: 3em;
+  background-color: rgb(33, 33, 131);
+  color: white;
+  clear: left;
+}
+.footer ul a {
+  text-decoration: none;
+  color: white;
+}
+.footer__one {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.pick:hover {
+  color: black;
+}
+
+.footer ul {
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+.footer li {
+  font-weight: 500;
+}
+.footer span {
+  font-size: 20px;
+}
+
+p {
+  padding: 10px 5px;
+}
+.cool {
+  padding-right: 5px;
+}
+
+/* footer end */
+
+@media (max-width: 600px) {
+  .split__img {
+    width: 40%;
+    height: auto;
+  }
+  .split__img2 {
+    float: right;
+    width: 50%;
+  }
+  .footer__logo {
+    display: none;
+  }
+}
